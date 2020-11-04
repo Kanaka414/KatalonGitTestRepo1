@@ -18,11 +18,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser("https://sefdev.jdc.ao.dcn:8444/sef/#/login")
 
-WebUI.setText(findTestObject('Object Repository/UserIDTextbox'), "TESTINA")
+WebUI.setText(findTestObject('Login Page/UserIDTextbox'), "test")
 
-WebUI.setText(findTestObject('Object Repository/PasswordTextbox'), "testing")
+WebUI.click(findTestObject('Login Page/ClearButton'))
 
-WebUI.click(findTestObject('Object Repository/LoginButton'))
+WebUI.setText(findTestObject('Login Page/UserIDTextbox'), "TESTINA")
+
+WebUI.setText(findTestObject('Login Page/PasswordTextbox'), "testing")
+
+WebUI.click(findTestObject('Login Page/LoginButton'))
 
 //WebUI.verifyEqual(errormessage, "You entered invalid credentials. Please try again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov")
 

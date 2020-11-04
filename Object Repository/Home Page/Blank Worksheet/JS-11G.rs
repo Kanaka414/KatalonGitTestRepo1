@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>LoginButton</name>
+   <name>JS-11G</name>
    <tag></tag>
-   <elementGuidId>849dfc7d-b055-4405-81a0-1701f3163588</elementGuidId>
+   <elementGuidId>8fd1701a-5218-43a9-8455-345fe53d103e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[contains(text(),'Login')]</value>
+         <value>//body/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
