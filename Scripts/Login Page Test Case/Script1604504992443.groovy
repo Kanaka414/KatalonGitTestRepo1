@@ -14,4 +14,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser("https://sefdev.jdc.ao.dcn:8444/sef/#/login")
+
+WebUI.setText(findTestObject('Object Repository/UserIDTextbox'), "TESTINA")
+
+WebUI.setText(findTestObject('Object Repository/PasswordTextbox'), "testing")
+
+WebUI.click(findTestObject('Object Repository/LoginButton'))
+
+//WebUI.verifyEqual(errormessage, "You entered invalid credentials. Please try again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov")
+
+WebUI.closeBrowser()
