@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Refresh Link</name>
+   <name>Court of Appeals</name>
    <tag></tag>
-   <elementGuidId>bbd7b9f6-cf37-4515-b0af-5fcf960ead89</elementGuidId>
-   <imagePath></imagePath>
+   <elementGuidId>850f3911-2ee2-4b44-94a1-2c24bf1e9515</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//body/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/button[1]/span[1]</value>
+         <value>//h5[contains(text(),'Courts of Appeals')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,6 +21,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//body/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/button[1]/span[1]</value>
+      <value>//h5[contains(text(),'Courts of Appeals')]</value>
    </webElementProperties>
 </WebElementEntity>
