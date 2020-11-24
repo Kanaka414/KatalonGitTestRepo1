@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SEF Test Suite-1,Chrome 87.0.4280.66,,,2020-11-24 16:17:47,2020-11-24 16:18:06,19.697s,PASSED
+,,,,,,,
+Test Cases/Home Page Test Case,Chrome 87.0.4280.66,,,2020-11-24 16:17:47,2020-11-24 16:18:06,19.306s,PASSED
+"openBrowser(""http://sefdev.jdc.ao.dcn:8181/sef/#/login"")",Chrome 87.0.4280.66,,,2020-11-24 16:17:48,2020-11-24 16:17:55,7.912s,PASSED
+"setText(findTestObject(""Login Page/UserIDTextbox""), ""TESTA"")",Chrome 87.0.4280.66,,,2020-11-24 16:17:55,2020-11-24 16:17:56,0.559s,PASSED
+"setText(findTestObject(""Login Page/PasswordTextbox""), ""testing"")",Chrome 87.0.4280.66,,,2020-11-24 16:17:56,2020-11-24 16:17:56,0.297s,PASSED
+"click(findTestObject(""Login Page/LoginButton""))",Chrome 87.0.4280.66,,,2020-11-24 16:17:56,2020-11-24 16:17:57,0.313s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Home Page/SEF Title""), ""Statistics Electronic Forms (SEF)"")",Chrome 87.0.4280.66,,,2020-11-24 16:17:57,2020-11-24 16:17:57,0.145s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Home Page/Court of Appeals/Court of Appeals""), ""Courts of Appeals"")",Chrome 87.0.4280.66,,,2020-11-24 16:17:57,2020-11-24 16:17:57,0.231s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Help Link""))",Chrome 87.0.4280.66,,,2020-11-24 16:17:57,2020-11-24 16:17:57,0.248s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Refresh Link""))",Chrome 87.0.4280.66,,,2020-11-24 16:17:57,2020-11-24 16:17:57,0.211s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Blank Worksheet/JS-11""))",Chrome 87.0.4280.66,,,2020-11-24 16:17:57,2020-11-24 16:17:58,0.227s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Blank Worksheet/JS-11G""))",Chrome 87.0.4280.66,,,2020-11-24 16:17:58,2020-11-24 16:17:58,0.527s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Blank Worksheet/JS-30""))",Chrome 87.0.4280.66,,,2020-11-24 16:17:58,2020-11-24 16:17:59,0.478s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Blank Worksheet/JS-31""))",Chrome 87.0.4280.66,,,2020-11-24 16:17:59,2020-11-24 16:18:00,1.028s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Blank Worksheet/JS-46""))",Chrome 87.0.4280.66,,,2020-11-24 16:18:00,2020-11-24 16:18:00,0.358s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Blank Worksheet/B-102""))",Chrome 87.0.4280.66,,,2020-11-24 16:18:00,2020-11-24 16:18:01,0.557s,PASSED
+"click(findTestObject(""Home Page/Court of Appeals/Appeals Monthly Summary (JS-30)""))",Chrome 87.0.4280.66,,,2020-11-24 16:18:01,2020-11-24 16:18:01,0.569s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Court of Appeals/Home icon""))",Chrome 87.0.4280.66,,,2020-11-24 16:18:01,2020-11-24 16:18:02,0.524s,PASSED
+"click(findTestObject(""Home Page/Court of Appeals/Writs of Certiorari (JS-31)""))",Chrome 87.0.4280.66,,,2020-11-24 16:18:02,2020-11-24 16:18:02,0.222s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Court of Appeals/Home icon""))",Chrome 87.0.4280.66,,,2020-11-24 16:18:02,2020-11-24 16:18:03,0.738s,PASSED
+"click(findTestObject(""Home Page/Court of Appeals/Report on Complaint Under Title 28 USC Section 351-364 (JS-60)""))",Chrome 87.0.4280.66,,,2020-11-24 16:18:03,2020-11-24 16:18:03,0.283s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Court of Appeals/Home icon""))",Chrome 87.0.4280.66,,,2020-11-24 16:18:03,2020-11-24 16:18:03,0.348s,PASSED
+"click(findTestObject(""Home Page/District Courts/District Courts- Petit Jury (JS-11)""))",Chrome 87.0.4280.66,,,2020-11-24 16:18:03,2020-11-24 16:18:03,0.154s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Court of Appeals/Home icon""))",Chrome 87.0.4280.66,,,2020-11-24 16:18:03,2020-11-24 16:18:04,0.210s,PASSED
+"click(findTestObject(""Home Page/District Courts/District Courts- Grand Jury (JS-11G)""))",Chrome 87.0.4280.66,,,2020-11-24 16:18:04,2020-11-24 16:18:04,0.202s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Court of Appeals/Home icon""))",Chrome 87.0.4280.66,,,2020-11-24 16:18:04,2020-11-24 16:18:04,0.265s,PASSED
+"click(findTestObject(""Home Page/District Courts/District Courts- Three-Judge Court (JS-46)""))",Chrome 87.0.4280.66,,,2020-11-24 16:18:04,2020-11-24 16:18:04,0.211s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Court of Appeals/Home icon""))",Chrome 87.0.4280.66,,,2020-11-24 16:18:04,2020-11-24 16:18:05,0.177s,PASSED
+"click(findTestObject(""Home Page/Bankruptcy/Bankruptcy Court Trials (B-102)""))",Chrome 87.0.4280.66,,,2020-11-24 16:18:05,2020-11-24 16:18:05,0.144s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Court of Appeals/Home icon""))",Chrome 87.0.4280.66,,,2020-11-24 16:18:05,2020-11-24 16:18:05,0.217s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Footer Link""))",Chrome 87.0.4280.66,,,2020-11-24 16:18:05,2020-11-24 16:18:05,0.192s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Logout Link""))",Chrome 87.0.4280.66,,,2020-11-24 16:18:05,2020-11-24 16:18:05,0.274s,PASSED
+closeBrowser(),Chrome 87.0.4280.66,,,2020-11-24 16:18:05,2020-11-24 16:18:06,0.881s,PASSED
