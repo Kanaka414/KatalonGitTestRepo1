@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SEF Test Suite-1,Edge Chromiume 18,,,2020-11-30 15:11:28,2020-11-30 15:12:21,52.285s,FAILED
+,,,,,,,
+Test Cases/Negative Scenario- Login Page Test Case,Edge Chromiume 18,,,2020-11-30 15:11:29,2020-11-30 15:11:41,12.488s,PASSED
+"openBrowser(""http://sefdev.jdc.ao.dcn:8181/sef/#/login"")",Edge Chromiume 18,,,2020-11-30 15:11:29,2020-11-30 15:11:36,6.710s,PASSED
+"setText(findTestObject(""Login Page/UserIDTextbox""), ""test"")",Edge Chromiume 18,,,2020-11-30 15:11:36,2020-11-30 15:11:37,1.143s,PASSED
+"click(findTestObject(""Login Page/ClearButton""))",Edge Chromiume 18,,,2020-11-30 15:11:37,2020-11-30 15:11:37,0.388s,PASSED
+"setText(findTestObject(""Login Page/UserIDTextbox""), ""TEST"")",Edge Chromiume 18,,,2020-11-30 15:11:37,2020-11-30 15:11:38,1.041s,PASSED
+"setText(findTestObject(""Login Page/PasswordTextbox""), ""testing"")",Edge Chromiume 18,,,2020-11-30 15:11:38,2020-11-30 15:11:39,1.081s,PASSED
+"click(findTestObject(""Login Page/LoginButton""))",Edge Chromiume 18,,,2020-11-30 15:11:39,2020-11-30 15:11:40,0.364s,PASSED
+"verifyTextPresent(""You entered invalid credentials. Please try again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov"", false)",Edge Chromiume 18,,,2020-11-30 15:11:40,2020-11-30 15:11:40,0.368s,PASSED
+waitForPageLoad(10),Edge Chromiume 18,,,2020-11-30 15:11:40,2020-11-30 15:11:40,0.097s,PASSED
+"takeScreenshot(""C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/LoginPageErrorMessage.png"")",Edge Chromiume 18,,,2020-11-30 15:11:40,2020-11-30 15:11:40,0.224s,PASSED
+closeBrowser(),Edge Chromiume 18,,,2020-11-30 15:11:40,2020-11-30 15:11:41,0.643s,PASSED
+,,,,,,,
+Test Cases/Home Page Test Case,Edge Chromiume 18,,,2020-11-30 15:11:41,2020-11-30 15:12:21,39.386s,FAILED
+"callTestCase(findTestCase(""Login page""), [:], STOP_ON_FAILURE)",Edge Chromiume 18,,,2020-11-30 15:11:41,2020-11-30 15:11:48,6.795s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Home Page/SEF Title""), ""Statistics Electronic Forms (SEF)"", CONTINUE_ON_FAILURE)",Edge Chromiume 18,,,2020-11-30 15:11:48,2020-11-30 15:11:49,0.459s,PASSED
+waitForPageLoad(10),Edge Chromiume 18,,,2020-11-30 15:11:49,2020-11-30 15:11:49,0.020s,PASSED
+"takeScreenshot(""C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/Homepage.png"")",Edge Chromiume 18,,,2020-11-30 15:11:49,2020-11-30 15:11:49,0.179s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Home Page/Court of Appeals/Court of Appeals""), ""Courts of Appeals"")",Edge Chromiume 18,,,2020-11-30 15:11:49,2020-11-30 15:11:49,0.277s,PASSED
+"click(findTestObject(""Object Repository/Home Page/User Administration Link""))",Edge Chromiume 18,,,2020-11-30 15:11:49,2020-11-30 15:12:20,31.301s,FAILED

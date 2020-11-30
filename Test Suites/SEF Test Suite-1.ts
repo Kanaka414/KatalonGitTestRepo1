@@ -4,7 +4,7 @@
    <name>SEF Test Suite-1</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
+   <mailRecipient>Kanaka_DwaraKanath@ao.uscourts.gov;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -14,8 +14,8 @@
    <testCaseLink>
       <guid>95e8e6b9-d7ec-4768-be7c-e218f4b07bb0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Login Page Test Case</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Negative Scenario- Login Page Test Case</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5f4a1d9c-7276-4423-a33c-86863f7035c9</guid>

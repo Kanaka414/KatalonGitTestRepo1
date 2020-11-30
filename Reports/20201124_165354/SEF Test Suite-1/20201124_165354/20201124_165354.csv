@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SEF Test Suite-1,Edge Chromiume 18,,,2020-11-24 16:53:58,2020-11-24 16:54:08,10.760s,FAILED
+,,,,,,,
+Test Cases/Home Page Test Case,Edge Chromiume 18,,,2020-11-24 16:53:58,2020-11-24 16:54:08,10.428s,FAILED
+"openBrowser(""http://sefdev.jdc.ao.dcn:8181/sef/#/login"")",Edge Chromiume 18,,,2020-11-24 16:53:58,2020-11-24 16:54:05,6.200s,PASSED
+"setText(findTestObject(""Login Page/UserIDTextbox""), ""TESTA"")",Edge Chromiume 18,,,2020-11-24 16:54:05,2020-11-24 16:54:06,1.197s,PASSED
+"setText(findTestObject(""Login Page/PasswordTextbox""), ""testing"")",Edge Chromiume 18,,,2020-11-24 16:54:06,2020-11-24 16:54:07,1.120s,PASSED
+"click(findTestObject(""Login Page/LoginButton""))",Edge Chromiume 18,,,2020-11-24 16:54:07,2020-11-24 16:54:07,0.452s,PASSED
+waitForPageLoad(10),Edge Chromiume 18,,,2020-11-24 16:54:07,2020-11-24 16:54:08,0.441s,PASSED
+"takeScreenshot(""C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots"")",Edge Chromiume 18,,,2020-11-24 16:54:08,2020-11-24 16:54:08,0.439s,FAILED

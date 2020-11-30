@@ -14,20 +14,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.Keys as Keys
+WebUI.openBrowser('http://sefdev.jdc.ao.dcn:8181/sef/#/login')
 
-WebUI.openBrowser("http://sefdev.jdc.ao.dcn:8181/sef/#/login")
+//User ID text box
+WebUI.setText(findTestObject('Login Page/UserIDTextbox'), 'SEFA')
 
-WebUI.setText(findTestObject('Login Page/UserIDTextbox'), "test")
+//Password text box
+WebUI.setText(findTestObject('Login Page/PasswordTextbox'), 'automation')
 
-WebUI.click(findTestObject('Login Page/ClearButton'))
-
-WebUI.setText(findTestObject('Login Page/UserIDTextbox'), "TESTINA")
-
-WebUI.setText(findTestObject('Login Page/PasswordTextbox'), "testing")
-
+//Login button click
 WebUI.click(findTestObject('Login Page/LoginButton'))
 
-//WebUI.verifyEqual(errormessage, "You entered invalid credentials. Please try again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov")
+WebUI.waitForPageLoad(10)
 
-WebUI.closeBrowser()
+WebUI.takeScreenshot('C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/Login_Page.png')

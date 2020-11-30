@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SEF Test Suite-1" time="60.783" tests="2" failures="1" errors="0">
+   <testsuite name="SEF Test Suite-1" tests="2" failures="1" errors="0" time="60.783" timestamp="2020-11-30 14:01:11" hostname="KanakaDwaraKanath - DWARAKANATHPC10.usc.ao.dcn" id="Test Suites/SEF Test Suite-1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon\\KatalonGitTestRepo1\\Reports\\20201130_140108\\SEF Test Suite-1\\20201130_140108"/>
+         <property name="logFiles" value="C:\\Katalon\\KatalonGitTestRepo1\\Reports\\20201130_140108\\SEF Test Suite-1\\20201130_140108\\execution0.log"/>
+         <property name="attachments" value="C:\\Katalon\\KatalonGitTestRepo1\\Reports\\20201130_140108\\SEF Test Suite-1\\20201130_140108\\C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/LoginPageErrorMessage.png, C:\\Katalon\\KatalonGitTestRepo1\\Reports\\20201130_140108\\SEF Test Suite-1\\20201130_140108\\C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/Homepage.png, C:\\Katalon\\KatalonGitTestRepo1\\Reports\\20201130_140108\\SEF Test Suite-1\\20201130_140108\\1606762922438.png, C:\\Katalon\\KatalonGitTestRepo1\\Reports\\20201130_140108\\SEF Test Suite-1\\20201130_140108\\1606762922602.png"/>
+         <property name="hostName" value="KanakaDwaraKanath - DWARAKANATHPC10.usc.ao.dcn"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.2.205"/>
+         <property name="browser" value="Edge Chromiume 18"/>
+         <property name="hostAddress" value="10.222.192.207"/>
+         <property name="sessionId" value="6DA3FE42-C56E-410D-A6C5-FBB10302E776"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Negative Scenario- Login Page Test Case" time="12.48" classname="Test Cases/Negative Scenario- Login Page Test Case" status="PASSED">
+         <system-out><![CDATA[2020-11-30 14:01:11 - [TEST_CASE][PASSED] - Test Cases/Negative Scenario- Login Page Test Case: Test Cases/Negative Scenario- Login Page Test Case
+
+2020-11-30 14:01:11 - [TEST_STEP][PASSED] - openBrowser("http://sefdev.jdc.ao.dcn:8181/sef/#/login"): Browser is opened with url: 'http://sefdev.jdc.ao.dcn:8181/sef/#/login'
+
+2020-11-30 14:01:12 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2020-11-30 14:01:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-11-30 14:01:18 - [MESSAGE][PASSED] - Browser is opened with url: 'http://sefdev.jdc.ao.dcn:8181/sef/#/login'
+
+2020-11-30 14:01:18 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/UserIDTextbox"), "test"): Text 'test' is set on object 'Object Repository/Login Page/UserIDTextbox'
+
+2020-11-30 14:01:19 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Login Page/UserIDTextbox'
+
+2020-11-30 14:01:19 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/ClearButton")): Object: 'Object Repository/Login Page/ClearButton' is clicked on
+
+2020-11-30 14:01:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/ClearButton' is clicked on
+
+2020-11-30 14:01:19 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/UserIDTextbox"), "TEST"): Text 'TEST' is set on object 'Object Repository/Login Page/UserIDTextbox'
+
+2020-11-30 14:01:21 - [MESSAGE][PASSED] - Text 'TEST' is set on object 'Object Repository/Login Page/UserIDTextbox'
+
+2020-11-30 14:01:21 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/PasswordTextbox"), "testing"): Text 'testing' is set on object 'Object Repository/Login Page/PasswordTextbox'
+
+2020-11-30 14:01:22 - [MESSAGE][PASSED] - Text 'testing' is set on object 'Object Repository/Login Page/PasswordTextbox'
+
+2020-11-30 14:01:22 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/LoginButton")): Object: 'Object Repository/Login Page/LoginButton' is clicked on
+
+2020-11-30 14:01:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/LoginButton' is clicked on
+
+2020-11-30 14:01:22 - [TEST_STEP][PASSED] - verifyTextPresent("You entered invalid credentials. Please try again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov", false): Text 'You entered invalid credentials. Please try again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov' is present on page 
+
+2020-11-30 14:01:22 - [MESSAGE][PASSED] - Text 'You entered invalid credentials. Please try again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov' is present on page 
+
+2020-11-30 14:01:22 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2020-11-30 14:01:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-11-30 14:01:22 - [TEST_STEP][PASSED] - takeScreenshot("C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/LoginPageErrorMessage.png"): Taking screenshot successfully
+
+2020-11-30 14:01:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Katalon\\KatalonGitTestRepo1\\Reports\\20201130_140108\\SEF Test Suite-1\\20201130_140108\\C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/LoginPageErrorMessage.png]]
+
+2020-11-30 14:01:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-11-30 14:01:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home Page Test Case" time="38.875" classname="Test Cases/Home Page Test Case" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Home Page Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Home Page/Court of Appeals/Court of Appeals' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at Home Page Test Case.run(Home Page Test Case:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1606762868101.run(TempTestSuite1606762868101.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Home Page/Court of Appeals/Court of Appeals' located by '//h5[contains(text(),'Courts of Appeals')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-11-30 14:01:23 - [TEST_CASE][FAILED] - Test Cases/Home Page Test Case: Test Cases/Home Page Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Home Page/Court of Appeals/Court of Appeals' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at Home Page Test Case.run(Home Page Test Case:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1606762868101.run(TempTestSuite1606762868101.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Home Page/Court of Appeals/Court of Appeals' located by '//h5[contains(text(),'Courts of Appeals')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-11-30 14:01:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login page' successfully
+
+2020-11-30 14:01:24 - [TEST_CASE][PASSED] - Test Cases/Login page: Test Cases/Login page
+
+2020-11-30 14:01:24 - [TEST_STEP][PASSED] - openBrowser("http://sefdev.jdc.ao.dcn:8181/sef/#/login"): Browser is opened with url: 'http://sefdev.jdc.ao.dcn:8181/sef/#/login'
+
+2020-11-30 14:01:24 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2020-11-30 14:01:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-11-30 14:01:28 - [MESSAGE][PASSED] - Browser is opened with url: 'http://sefdev.jdc.ao.dcn:8181/sef/#/login'
+
+2020-11-30 14:01:28 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/UserIDTextbox"), "TESTA"): Text 'TESTA' is set on object 'Object Repository/Login Page/UserIDTextbox'
+
+2020-11-30 14:01:29 - [MESSAGE][PASSED] - Text 'TESTA' is set on object 'Object Repository/Login Page/UserIDTextbox'
+
+2020-11-30 14:01:29 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/PasswordTextbox"), "testing"): Text 'testing' is set on object 'Object Repository/Login Page/PasswordTextbox'
+
+2020-11-30 14:01:30 - [MESSAGE][PASSED] - Text 'testing' is set on object 'Object Repository/Login Page/PasswordTextbox'
+
+2020-11-30 14:01:30 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/LoginButton")): Object: 'Object Repository/Login Page/LoginButton' is clicked on
+
+2020-11-30 14:01:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/LoginButton' is clicked on
+
+2020-11-30 14:01:30 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2020-11-30 14:01:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-11-30 14:01:30 - [TEST_STEP][PASSED] - takeScreenshot("C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/Homepage.png"): Taking screenshot successfully
+
+2020-11-30 14:01:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Katalon\\KatalonGitTestRepo1\\Reports\\20201130_140108\\SEF Test Suite-1\\20201130_140108\\C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/Homepage.png]]
+
+2020-11-30 14:01:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login page' successfully
+
+2020-11-30 14:01:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Home Page/SEF Title"), "Statistics Electronic Forms (SEF)", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Home Page/SEF Title' are matched.
+
+2020-11-30 14:01:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home Page/SEF Title' are matched.
+
+2020-11-30 14:01:31 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/Home Page/Court of Appeals/Court of Appeals"), "Courts of Appeals"): Verify element text of test object 'Object Repository/Home Page/Court of Appeals/Court of Appeals' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Home Page/Court of Appeals/Court of Appeals' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at Home Page Test Case.run(Home Page Test Case:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1606762868101.run(TempTestSuite1606762868101.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Home Page/Court of Appeals/Court of Appeals' located by '//h5[contains(text(),'Courts of Appeals')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-11-30 14:02:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //h5[contains(text(),'Courts of Appeals')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-11-30 14:02:02 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Home Page/Court of Appeals/Court of Appeals' located by '//h5[contains(text(),'Courts of Appeals')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Home Page/Court of Appeals/Court of Appeals' located by '//h5[contains(text(),'Courts of Appeals')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at Home Page Test Case.run(Home Page Test Case:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1606762868101.run(TempTestSuite1606762868101.groovy:39)
+)
+[[ATTACHMENT|C:\\Katalon\\KatalonGitTestRepo1\\Reports\\20201130_140108\\SEF Test Suite-1\\20201130_140108\\1606762922438.png]]
+
+2020-11-30 14:02:02 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Home Page/Court of Appeals/Court of Appeals' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Home Page/Court of Appeals/Court of Appeals' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at Home Page Test Case.run(Home Page Test Case:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1606762868101.run(TempTestSuite1606762868101.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Home Page/Court of Appeals/Court of Appeals' located by '//h5[contains(text(),'Courts of Appeals')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Katalon\\KatalonGitTestRepo1\\Reports\\20201130_140108\\SEF Test Suite-1\\20201130_140108\\1606762922602.png]]]]></system-out>
+         <system-err><![CDATA[2020-11-30 14:01:23 - [TEST_CASE][FAILED] - Test Cases/Home Page Test Case: Test Cases/Home Page Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Home Page/Court of Appeals/Court of Appeals' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at Home Page Test Case.run(Home Page Test Case:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1606762868101.run(TempTestSuite1606762868101.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Home Page/Court of Appeals/Court of Appeals' located by '//h5[contains(text(),'Courts of Appeals')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-11-30 14:01:11 - [TEST_SUITE][FAILED] - SEF Test Suite-1: Test Cases/Home Page Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Home Page/Court of Appeals/Court of Appeals' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at Home Page Test Case.run(Home Page Test Case:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1606762868101.run(TempTestSuite1606762868101.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Home Page/Court of Appeals/Court of Appeals' located by '//h5[contains(text(),'Courts of Appeals')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-11-30 14:01:11 - [TEST_SUITE][FAILED] - SEF Test Suite-1: Test Cases/Home Page Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Home Page/Court of Appeals/Court of Appeals' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at Home Page Test Case.run(Home Page Test Case:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1606762868101.run(TempTestSuite1606762868101.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Home Page/Court of Appeals/Court of Appeals' located by '//h5[contains(text(),'Courts of Appeals')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

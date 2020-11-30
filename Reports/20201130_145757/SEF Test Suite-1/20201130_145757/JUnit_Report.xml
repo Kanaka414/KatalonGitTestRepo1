@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SEF Test Suite-1" time="58.781" tests="2" failures="1" errors="0">
+   <testsuite name="SEF Test Suite-1" tests="2" failures="1" errors="0" time="58.781" timestamp="2020-11-30 14:58:00" hostname="KanakaDwaraKanath - DWARAKANATHPC10.usc.ao.dcn" id="Test Suites/SEF Test Suite-1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon\\KatalonGitTestRepo1\\Reports\\20201130_145757\\SEF Test Suite-1\\20201130_145757"/>
+         <property name="logFiles" value="C:\\Katalon\\KatalonGitTestRepo1\\Reports\\20201130_145757\\SEF Test Suite-1\\20201130_145757\\execution0.log"/>
+         <property name="attachments" value="C:\\Katalon\\KatalonGitTestRepo1\\Reports\\20201130_145757\\SEF Test Suite-1\\20201130_145757\\1606766292460.png, C:\\Katalon\\KatalonGitTestRepo1\\Reports\\20201130_145757\\SEF Test Suite-1\\20201130_145757\\C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/Login_Page.png, C:\\Katalon\\KatalonGitTestRepo1\\Reports\\20201130_145757\\SEF Test Suite-1\\20201130_145757\\C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/Homepage.png"/>
+         <property name="hostName" value="KanakaDwaraKanath - DWARAKANATHPC10.usc.ao.dcn"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.2.205"/>
+         <property name="browser" value="Edge Chromiume 18"/>
+         <property name="hostAddress" value="10.222.192.207"/>
+         <property name="sessionId" value="3C9FF0EF-2AF6-4374-B8A0-621F26929BFF"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Negative Scenario- Login Page Test Case" time="12.215" classname="Test Cases/Negative Scenario- Login Page Test Case" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Negative Scenario- Login Page Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'You entered invalid credentials. Please ty again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$2.call(Unknown Source)
+	at Negative Scenario- Login Page Test Case.run(Negative Scenario- Login Page Test Case:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1606766277095.run(TempTestSuite1606766277095.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'You entered invalid credentials. Please ty again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-11-30 14:58:00 - [TEST_CASE][FAILED] - Test Cases/Negative Scenario- Login Page Test Case: Test Cases/Negative Scenario- Login Page Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'You entered invalid credentials. Please ty again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$2.call(Unknown Source)
+	at Negative Scenario- Login Page Test Case.run(Negative Scenario- Login Page Test Case:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1606766277095.run(TempTestSuite1606766277095.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'You entered invalid credentials. Please ty again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-11-30 14:58:00 - [TEST_STEP][PASSED] - openBrowser("http://sefdev.jdc.ao.dcn:8181/sef/#/login"): Browser is opened with url: 'http://sefdev.jdc.ao.dcn:8181/sef/#/login'
+
+2020-11-30 14:58:01 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2020-11-30 14:58:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-11-30 14:58:07 - [MESSAGE][PASSED] - Browser is opened with url: 'http://sefdev.jdc.ao.dcn:8181/sef/#/login'
+
+2020-11-30 14:58:07 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/UserIDTextbox"), "test"): Text 'test' is set on object 'Object Repository/Login Page/UserIDTextbox'
+
+2020-11-30 14:58:09 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Login Page/UserIDTextbox'
+
+2020-11-30 14:58:09 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/ClearButton")): Object: 'Object Repository/Login Page/ClearButton' is clicked on
+
+2020-11-30 14:58:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/ClearButton' is clicked on
+
+2020-11-30 14:58:09 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/UserIDTextbox"), "TEST"): Text 'TEST' is set on object 'Object Repository/Login Page/UserIDTextbox'
+
+2020-11-30 14:58:10 - [MESSAGE][PASSED] - Text 'TEST' is set on object 'Object Repository/Login Page/UserIDTextbox'
+
+2020-11-30 14:58:10 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/PasswordTextbox"), "testing"): Text 'testing' is set on object 'Object Repository/Login Page/PasswordTextbox'
+
+2020-11-30 14:58:11 - [MESSAGE][PASSED] - Text 'testing' is set on object 'Object Repository/Login Page/PasswordTextbox'
+
+2020-11-30 14:58:11 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/LoginButton")): Object: 'Object Repository/Login Page/LoginButton' is clicked on
+
+2020-11-30 14:58:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/LoginButton' is clicked on
+
+2020-11-30 14:58:12 - [TEST_STEP][FAILED] - verifyTextPresent("You entered invalid credentials. Please ty again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov", false): Unable to verify text 'You entered invalid credentials. Please ty again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'You entered invalid credentials. Please ty again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$2.call(Unknown Source)
+	at Negative Scenario- Login Page Test Case.run(Negative Scenario- Login Page Test Case:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1606766277095.run(TempTestSuite1606766277095.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'You entered invalid credentials. Please ty again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-11-30 14:58:12 - [MESSAGE][FAILED] - Text 'You entered invalid credentials. Please ty again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'You entered invalid credentials. Please ty again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$2.call(Unknown Source)
+	at Negative Scenario- Login Page Test Case.run(Negative Scenario- Login Page Test Case:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1606766277095.run(TempTestSuite1606766277095.groovy:39)
+)
+
+2020-11-30 14:58:12 - [MESSAGE][FAILED] - Unable to verify text 'You entered invalid credentials. Please ty again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'You entered invalid credentials. Please ty again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$2.call(Unknown Source)
+	at Negative Scenario- Login Page Test Case.run(Negative Scenario- Login Page Test Case:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1606766277095.run(TempTestSuite1606766277095.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'You entered invalid credentials. Please ty again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Katalon\\KatalonGitTestRepo1\\Reports\\20201130_145757\\SEF Test Suite-1\\20201130_145757\\1606766292460.png]]]]></system-out>
+         <system-err><![CDATA[2020-11-30 14:58:00 - [TEST_CASE][FAILED] - Test Cases/Negative Scenario- Login Page Test Case: Test Cases/Negative Scenario- Login Page Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'You entered invalid credentials. Please ty again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$2.call(Unknown Source)
+	at Negative Scenario- Login Page Test Case.run(Negative Scenario- Login Page Test Case:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1606766277095.run(TempTestSuite1606766277095.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'You entered invalid credentials. Please ty again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home Page Test Case" time="39.105" classname="Test Cases/Home Page Test Case" status="PASSED">
+         <system-out><![CDATA[2020-11-30 14:58:12 - [TEST_CASE][PASSED] - Test Cases/Home Page Test Case: Test Cases/Home Page Test Case
+
+2020-11-30 14:58:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login page' successfully
+
+2020-11-30 14:58:13 - [TEST_CASE][PASSED] - Test Cases/Login page: Test Cases/Login page
+
+2020-11-30 14:58:13 - [TEST_STEP][PASSED] - openBrowser("http://sefdev.jdc.ao.dcn:8181/sef/#/login"): Browser is opened with url: 'http://sefdev.jdc.ao.dcn:8181/sef/#/login'
+
+2020-11-30 14:58:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-11-30 14:58:13 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2020-11-30 14:58:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-11-30 14:58:17 - [MESSAGE][PASSED] - Browser is opened with url: 'http://sefdev.jdc.ao.dcn:8181/sef/#/login'
+
+2020-11-30 14:58:17 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/UserIDTextbox"), "DWARAKK"): Text 'DWARAKK' is set on object 'Object Repository/Login Page/UserIDTextbox'
+
+2020-11-30 14:58:18 - [MESSAGE][PASSED] - Text 'DWARAKK' is set on object 'Object Repository/Login Page/UserIDTextbox'
+
+2020-11-30 14:58:18 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/PasswordTextbox"), "limetree"): Text 'limetree' is set on object 'Object Repository/Login Page/PasswordTextbox'
+
+2020-11-30 14:58:19 - [MESSAGE][PASSED] - Text 'limetree' is set on object 'Object Repository/Login Page/PasswordTextbox'
+
+2020-11-30 14:58:19 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/LoginButton")): Object: 'Object Repository/Login Page/LoginButton' is clicked on
+
+2020-11-30 14:58:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/LoginButton' is clicked on
+
+2020-11-30 14:58:20 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2020-11-30 14:58:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-11-30 14:58:20 - [TEST_STEP][PASSED] - takeScreenshot("C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/Login_Page.png"): Taking screenshot successfully
+
+2020-11-30 14:58:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Katalon\\KatalonGitTestRepo1\\Reports\\20201130_145757\\SEF Test Suite-1\\20201130_145757\\C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/Login_Page.png]]
+
+2020-11-30 14:58:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login page' successfully
+
+2020-11-30 14:58:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Home Page/SEF Title"), "Statistics Electronic Forms (SEF)", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Home Page/SEF Title' are matched.
+
+2020-11-30 14:58:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home Page/SEF Title' are matched.
+
+2020-11-30 14:58:21 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2020-11-30 14:58:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-11-30 14:58:21 - [TEST_STEP][PASSED] - takeScreenshot("C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/Homepage.png"): Taking screenshot successfully
+
+2020-11-30 14:58:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Katalon\\KatalonGitTestRepo1\\Reports\\20201130_145757\\SEF Test Suite-1\\20201130_145757\\C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/Homepage.png]]
+
+2020-11-30 14:58:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Home Page/Court of Appeals/Court of Appeals"), "Courts of Appeals"): Actual text and expected text of test object 'Object Repository/Home Page/Court of Appeals/Court of Appeals' are matched.
+
+2020-11-30 14:58:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home Page/Court of Appeals/Court of Appeals' are matched.
+
+2020-11-30 14:58:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Help Link")): Object: 'Object Repository/Home Page/Help Link' is clicked on
+
+2020-11-30 14:58:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Help Link' is clicked on
+
+2020-11-30 14:58:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Refresh Link")): Object: 'Object Repository/Home Page/Refresh Link' is clicked on
+
+2020-11-30 14:58:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Refresh Link' is clicked on
+
+2020-11-30 14:58:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Blank Worksheet/JS-11")): Object: 'Object Repository/Home Page/Blank Worksheet/JS-11' is clicked on
+
+2020-11-30 14:58:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Blank Worksheet/JS-11' is clicked on
+
+2020-11-30 14:58:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Blank Worksheet/JS-11G")): Object: 'Object Repository/Home Page/Blank Worksheet/JS-11G' is clicked on
+
+2020-11-30 14:58:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Blank Worksheet/JS-11G' is clicked on
+
+2020-11-30 14:58:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Blank Worksheet/JS-30")): Object: 'Object Repository/Home Page/Blank Worksheet/JS-30' is clicked on
+
+2020-11-30 14:58:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Blank Worksheet/JS-30' is clicked on
+
+2020-11-30 14:58:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Blank Worksheet/JS-31")): Object: 'Object Repository/Home Page/Blank Worksheet/JS-31' is clicked on
+
+2020-11-30 14:58:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Blank Worksheet/JS-31' is clicked on
+
+2020-11-30 14:58:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Blank Worksheet/JS-46")): Object: 'Object Repository/Home Page/Blank Worksheet/JS-46' is clicked on
+
+2020-11-30 14:58:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Blank Worksheet/JS-46' is clicked on
+
+2020-11-30 14:58:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Blank Worksheet/B-102")): Object: 'Object Repository/Home Page/Blank Worksheet/B-102' is clicked on
+
+2020-11-30 14:58:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Blank Worksheet/B-102' is clicked on
+
+2020-11-30 14:58:39 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Court of Appeals/Appeals Monthly Summary (JS-30)")): Object: 'Object Repository/Home Page/Court of Appeals/Appeals Monthly Summary (JS-30)' is clicked on
+
+2020-11-30 14:58:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Court of Appeals/Appeals Monthly Summary (JS-30)' is clicked on
+
+2020-11-30 14:58:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Court of Appeals/Home icon")): Object: 'Object Repository/Home Page/Court of Appeals/Home icon' is clicked on
+
+2020-11-30 14:58:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Court of Appeals/Home icon' is clicked on
+
+2020-11-30 14:58:40 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Court of Appeals/Writs of Certiorari (JS-31)")): Object: 'Object Repository/Home Page/Court of Appeals/Writs of Certiorari (JS-31)' is clicked on
+
+2020-11-30 14:58:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Court of Appeals/Writs of Certiorari (JS-31)' is clicked on
+
+2020-11-30 14:58:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Court of Appeals/Home icon")): Object: 'Object Repository/Home Page/Court of Appeals/Home icon' is clicked on
+
+2020-11-30 14:58:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Court of Appeals/Home icon' is clicked on
+
+2020-11-30 14:58:42 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Court of Appeals/Report on Complaint Under Title 28 USC Section 351-364 (JS-60)")): Object: 'Object Repository/Home Page/Court of Appeals/Report on Complaint Under Title 28 USC Section 351-364 (JS-60)' is clicked on
+
+2020-11-30 14:58:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Court of Appeals/Report on Complaint Under Title 28 USC Section 351-364 (JS-60)' is clicked on
+
+2020-11-30 14:58:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Court of Appeals/Home icon")): Object: 'Object Repository/Home Page/Court of Appeals/Home icon' is clicked on
+
+2020-11-30 14:58:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Court of Appeals/Home icon' is clicked on
+
+2020-11-30 14:58:43 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/District Courts/District Courts- Petit Jury (JS-11)")): Object: 'Object Repository/Home Page/District Courts/District Courts- Petit Jury (JS-11)' is clicked on
+
+2020-11-30 14:58:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/District Courts/District Courts- Petit Jury (JS-11)' is clicked on
+
+2020-11-30 14:58:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Court of Appeals/Home icon")): Object: 'Object Repository/Home Page/Court of Appeals/Home icon' is clicked on
+
+2020-11-30 14:58:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Court of Appeals/Home icon' is clicked on
+
+2020-11-30 14:58:44 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/District Courts/District Courts- Grand Jury (JS-11G)")): Object: 'Object Repository/Home Page/District Courts/District Courts- Grand Jury (JS-11G)' is clicked on
+
+2020-11-30 14:58:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/District Courts/District Courts- Grand Jury (JS-11G)' is clicked on
+
+2020-11-30 14:58:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Court of Appeals/Home icon")): Object: 'Object Repository/Home Page/Court of Appeals/Home icon' is clicked on
+
+2020-11-30 14:58:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Court of Appeals/Home icon' is clicked on
+
+2020-11-30 14:58:46 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/District Courts/District Courts- Three-Judge Court (JS-46)")): Object: 'Object Repository/Home Page/District Courts/District Courts- Three-Judge Court (JS-46)' is clicked on
+
+2020-11-30 14:58:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/District Courts/District Courts- Three-Judge Court (JS-46)' is clicked on
+
+2020-11-30 14:58:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Court of Appeals/Home icon")): Object: 'Object Repository/Home Page/Court of Appeals/Home icon' is clicked on
+
+2020-11-30 14:58:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Court of Appeals/Home icon' is clicked on
+
+2020-11-30 14:58:47 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Bankruptcy/Bankruptcy Court Trials (B-102)")): Object: 'Object Repository/Home Page/Bankruptcy/Bankruptcy Court Trials (B-102)' is clicked on
+
+2020-11-30 14:58:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Bankruptcy/Bankruptcy Court Trials (B-102)' is clicked on
+
+2020-11-30 14:58:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Court of Appeals/Home icon")): Object: 'Object Repository/Home Page/Court of Appeals/Home icon' is clicked on
+
+2020-11-30 14:58:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Court of Appeals/Home icon' is clicked on
+
+2020-11-30 14:58:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Footer Link")): Object: 'Object Repository/Home Page/Footer Link' is clicked on
+
+2020-11-30 14:58:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Footer Link' is clicked on
+
+2020-11-30 14:58:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Logout Link")): Object: 'Object Repository/Home Page/Logout Link' is clicked on
+
+2020-11-30 14:58:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Logout Link' is clicked on
+
+2020-11-30 14:58:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-11-30 14:58:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-11-30 14:58:00 - [TEST_SUITE][FAILED] - SEF Test Suite-1: Test Cases/Negative Scenario- Login Page Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'You entered invalid credentials. Please ty again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$2.call(Unknown Source)
+	at Negative Scenario- Login Page Test Case.run(Negative Scenario- Login Page Test Case:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1606766277095.run(TempTestSuite1606766277095.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'You entered invalid credentials. Please ty again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-11-30 14:58:00 - [TEST_SUITE][FAILED] - SEF Test Suite-1: Test Cases/Negative Scenario- Login Page Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'You entered invalid credentials. Please ty again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$2.call(Unknown Source)
+	at Negative Scenario- Login Page Test Case.run(Negative Scenario- Login Page Test Case:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1606766277095.run(TempTestSuite1606766277095.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'You entered invalid credentials. Please ty again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

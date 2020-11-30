@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SEF Test Suite-1,Chrome 87.0.4280.66,,,2020-11-24 16:52:31,2020-11-24 16:52:42,10.720s,FAILED
+,,,,,,,
+Test Cases/Home Page Test Case,Chrome 87.0.4280.66,,,2020-11-24 16:52:31,2020-11-24 16:52:42,10.319s,FAILED
+"openBrowser(""http://sefdev.jdc.ao.dcn:8181/sef/#/login"")",Chrome 87.0.4280.66,,,2020-11-24 16:52:32,2020-11-24 16:52:40,7.843s,PASSED
+"setText(findTestObject(""Login Page/UserIDTextbox""), ""TESTA"")",Chrome 87.0.4280.66,,,2020-11-24 16:52:40,2020-11-24 16:52:40,0.469s,PASSED
+"setText(findTestObject(""Login Page/PasswordTextbox""), ""testing"")",Chrome 87.0.4280.66,,,2020-11-24 16:52:40,2020-11-24 16:52:41,0.355s,PASSED
+"click(findTestObject(""Login Page/LoginButton""))",Chrome 87.0.4280.66,,,2020-11-24 16:52:41,2020-11-24 16:52:41,0.358s,PASSED
+waitForPageLoad(10),Chrome 87.0.4280.66,,,2020-11-24 16:52:41,2020-11-24 16:52:41,0.164s,PASSED
+"takeScreenshot(""C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots"")",Chrome 87.0.4280.66,,,2020-11-24 16:52:41,2020-11-24 16:52:42,0.599s,FAILED

@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SEF Test Suite-1,Chrome 87.0.4280.66,,,2020-11-30 15:13:25,2020-11-30 15:14:22,57.363s,FAILED
+,,,,,,,
+Test Cases/Negative Scenario- Login Page Test Case,Chrome 87.0.4280.66,,,2020-11-30 15:13:25,2020-11-30 15:13:41,15.321s,PASSED
+"openBrowser(""http://sefdev.jdc.ao.dcn:8181/sef/#/login"")",Chrome 87.0.4280.66,,,2020-11-30 15:13:26,2020-11-30 15:13:36,10.624s,PASSED
+"setText(findTestObject(""Login Page/UserIDTextbox""), ""test"")",Chrome 87.0.4280.66,,,2020-11-30 15:13:36,2020-11-30 15:13:37,0.901s,PASSED
+"click(findTestObject(""Login Page/ClearButton""))",Chrome 87.0.4280.66,,,2020-11-30 15:13:37,2020-11-30 15:13:37,0.227s,PASSED
+"setText(findTestObject(""Login Page/UserIDTextbox""), ""TEST"")",Chrome 87.0.4280.66,,,2020-11-30 15:13:38,2020-11-30 15:13:38,0.504s,PASSED
+"setText(findTestObject(""Login Page/PasswordTextbox""), ""testing"")",Chrome 87.0.4280.66,,,2020-11-30 15:13:38,2020-11-30 15:13:38,0.348s,PASSED
+"click(findTestObject(""Login Page/LoginButton""))",Chrome 87.0.4280.66,,,2020-11-30 15:13:38,2020-11-30 15:13:39,0.187s,PASSED
+"verifyTextPresent(""You entered invalid credentials. Please try again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov"", false)",Chrome 87.0.4280.66,,,2020-11-30 15:13:39,2020-11-30 15:13:39,0.255s,PASSED
+waitForPageLoad(10),Chrome 87.0.4280.66,,,2020-11-30 15:13:39,2020-11-30 15:13:39,0.134s,PASSED
+"takeScreenshot(""C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/LoginPageErrorMessage.png"")",Chrome 87.0.4280.66,,,2020-11-30 15:13:39,2020-11-30 15:13:40,0.868s,PASSED
+closeBrowser(),Chrome 87.0.4280.66,,,2020-11-30 15:13:40,2020-11-30 15:13:41,0.859s,PASSED
+,,,,,,,
+Test Cases/Home Page Test Case,Chrome 87.0.4280.66,,,2020-11-30 15:13:41,2020-11-30 15:14:22,41.704s,FAILED
+"callTestCase(findTestCase(""Login page""), [:], STOP_ON_FAILURE)",Chrome 87.0.4280.66,,,2020-11-30 15:13:41,2020-11-30 15:13:50,9.186s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Home Page/SEF Title""), ""Statistics Electronic Forms (SEF)"", CONTINUE_ON_FAILURE)",Chrome 87.0.4280.66,,,2020-11-30 15:13:50,2020-11-30 15:13:50,0.112s,PASSED
+waitForPageLoad(10),Chrome 87.0.4280.66,,,2020-11-30 15:13:50,2020-11-30 15:13:50,0.016s,PASSED
+"takeScreenshot(""C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/Homepage.png"")",Chrome 87.0.4280.66,,,2020-11-30 15:13:50,2020-11-30 15:13:51,0.389s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Home Page/Court of Appeals/Court of Appeals""), ""Courts of Appeals"")",Chrome 87.0.4280.66,,,2020-11-30 15:13:51,2020-11-30 15:13:51,0.108s,PASSED
+"click(findTestObject(""Object Repository/Home Page/User Administration Link""))",Chrome 87.0.4280.66,,,2020-11-30 15:13:51,2020-11-30 15:14:22,31.573s,FAILED

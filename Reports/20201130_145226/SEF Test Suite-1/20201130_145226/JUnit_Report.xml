@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SEF Test Suite-1" time="61.857" tests="2" failures="0" errors="0">
+   <testsuite name="SEF Test Suite-1" tests="2" failures="0" errors="0" time="61.857" timestamp="2020-11-30 14:52:29" hostname="KanakaDwaraKanath - DWARAKANATHPC10.usc.ao.dcn" id="Test Suites/SEF Test Suite-1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon\\KatalonGitTestRepo1\\Reports\\20201130_145226\\SEF Test Suite-1\\20201130_145226"/>
+         <property name="logFiles" value="C:\\Katalon\\KatalonGitTestRepo1\\Reports\\20201130_145226\\SEF Test Suite-1\\20201130_145226\\execution0.log"/>
+         <property name="attachments" value="C:\\Katalon\\KatalonGitTestRepo1\\Reports\\20201130_145226\\SEF Test Suite-1\\20201130_145226\\C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/LoginPageErrorMessage.png, C:\\Katalon\\KatalonGitTestRepo1\\Reports\\20201130_145226\\SEF Test Suite-1\\20201130_145226\\C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/Homepage.png"/>
+         <property name="hostName" value="KanakaDwaraKanath - DWARAKANATHPC10.usc.ao.dcn"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.2.205"/>
+         <property name="browser" value="Edge Chromiume 18"/>
+         <property name="hostAddress" value="10.222.192.207"/>
+         <property name="sessionId" value="4FBDDBCB-A661-4B98-B6D9-1455B0A2C407"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Negative Scenario- Login Page Test Case" time="16.636" classname="Test Cases/Negative Scenario- Login Page Test Case" status="PASSED">
+         <system-out><![CDATA[2020-11-30 14:52:29 - [TEST_CASE][PASSED] - Test Cases/Negative Scenario- Login Page Test Case: Test Cases/Negative Scenario- Login Page Test Case
+
+2020-11-30 14:52:30 - [TEST_STEP][PASSED] - openBrowser("http://sefdev.jdc.ao.dcn:8181/sef/#/login"): Browser is opened with url: 'http://sefdev.jdc.ao.dcn:8181/sef/#/login'
+
+2020-11-30 14:52:30 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2020-11-30 14:52:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-11-30 14:52:40 - [MESSAGE][PASSED] - Browser is opened with url: 'http://sefdev.jdc.ao.dcn:8181/sef/#/login'
+
+2020-11-30 14:52:40 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/UserIDTextbox"), "test"): Text 'test' is set on object 'Object Repository/Login Page/UserIDTextbox'
+
+2020-11-30 14:52:42 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Login Page/UserIDTextbox'
+
+2020-11-30 14:52:42 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/ClearButton")): Object: 'Object Repository/Login Page/ClearButton' is clicked on
+
+2020-11-30 14:52:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/ClearButton' is clicked on
+
+2020-11-30 14:52:42 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/UserIDTextbox"), "TEST"): Text 'TEST' is set on object 'Object Repository/Login Page/UserIDTextbox'
+
+2020-11-30 14:52:43 - [MESSAGE][PASSED] - Text 'TEST' is set on object 'Object Repository/Login Page/UserIDTextbox'
+
+2020-11-30 14:52:43 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/PasswordTextbox"), "testing"): Text 'testing' is set on object 'Object Repository/Login Page/PasswordTextbox'
+
+2020-11-30 14:52:44 - [MESSAGE][PASSED] - Text 'testing' is set on object 'Object Repository/Login Page/PasswordTextbox'
+
+2020-11-30 14:52:44 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/LoginButton")): Object: 'Object Repository/Login Page/LoginButton' is clicked on
+
+2020-11-30 14:52:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/LoginButton' is clicked on
+
+2020-11-30 14:52:44 - [TEST_STEP][PASSED] - verifyTextPresent("You entered invalid credentials. Please try again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov", false): Text 'You entered invalid credentials. Please try again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov' is present on page 
+
+2020-11-30 14:52:45 - [MESSAGE][PASSED] - Text 'You entered invalid credentials. Please try again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov' is present on page 
+
+2020-11-30 14:52:45 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2020-11-30 14:52:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-11-30 14:52:45 - [TEST_STEP][PASSED] - takeScreenshot("C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/LoginPageErrorMessage.png"): Taking screenshot successfully
+
+2020-11-30 14:52:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Katalon\\KatalonGitTestRepo1\\Reports\\20201130_145226\\SEF Test Suite-1\\20201130_145226\\C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/LoginPageErrorMessage.png]]
+
+2020-11-30 14:52:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-11-30 14:52:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home Page Test Case" time="37.512" classname="Test Cases/Home Page Test Case" status="PASSED">
+         <system-out><![CDATA[2020-11-30 14:52:46 - [TEST_CASE][PASSED] - Test Cases/Home Page Test Case: Test Cases/Home Page Test Case
+
+2020-11-30 14:52:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login page' successfully
+
+2020-11-30 14:52:46 - [TEST_CASE][PASSED] - Test Cases/Login page: Test Cases/Login page
+
+2020-11-30 14:52:47 - [TEST_STEP][PASSED] - openBrowser("http://sefdev.jdc.ao.dcn:8181/sef/#/login"): Browser is opened with url: 'http://sefdev.jdc.ao.dcn:8181/sef/#/login'
+
+2020-11-30 14:52:47 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2020-11-30 14:52:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-11-30 14:52:50 - [MESSAGE][PASSED] - Browser is opened with url: 'http://sefdev.jdc.ao.dcn:8181/sef/#/login'
+
+2020-11-30 14:52:50 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/UserIDTextbox"), "DWARAKK"): Text 'DWARAKK' is set on object 'Object Repository/Login Page/UserIDTextbox'
+
+2020-11-30 14:52:51 - [MESSAGE][PASSED] - Text 'DWARAKK' is set on object 'Object Repository/Login Page/UserIDTextbox'
+
+2020-11-30 14:52:51 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/PasswordTextbox"), "limetree"): Text 'limetree' is set on object 'Object Repository/Login Page/PasswordTextbox'
+
+2020-11-30 14:52:52 - [MESSAGE][PASSED] - Text 'limetree' is set on object 'Object Repository/Login Page/PasswordTextbox'
+
+2020-11-30 14:52:52 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/LoginButton")): Object: 'Object Repository/Login Page/LoginButton' is clicked on
+
+2020-11-30 14:52:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/LoginButton' is clicked on
+
+2020-11-30 14:52:52 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2020-11-30 14:52:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-11-30 14:52:53 - [TEST_STEP][PASSED] - takeScreenshot("C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/Homepage.png"): Taking screenshot successfully
+
+2020-11-30 14:52:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Katalon\\KatalonGitTestRepo1\\Reports\\20201130_145226\\SEF Test Suite-1\\20201130_145226\\C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/Homepage.png]]
+
+2020-11-30 14:52:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login page' successfully
+
+2020-11-30 14:52:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Home Page/SEF Title"), "Statistics Electronic Forms (SEF)", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Home Page/SEF Title' are matched.
+
+2020-11-30 14:52:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home Page/SEF Title' are matched.
+
+2020-11-30 14:52:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Home Page/Court of Appeals/Court of Appeals"), "Courts of Appeals"): Actual text and expected text of test object 'Object Repository/Home Page/Court of Appeals/Court of Appeals' are matched.
+
+2020-11-30 14:52:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home Page/Court of Appeals/Court of Appeals' are matched.
+
+2020-11-30 14:52:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Help Link")): Object: 'Object Repository/Home Page/Help Link' is clicked on
+
+2020-11-30 14:52:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Help Link' is clicked on
+
+2020-11-30 14:52:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Refresh Link")): Object: 'Object Repository/Home Page/Refresh Link' is clicked on
+
+2020-11-30 14:52:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Refresh Link' is clicked on
+
+2020-11-30 14:52:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Blank Worksheet/JS-11")): Object: 'Object Repository/Home Page/Blank Worksheet/JS-11' is clicked on
+
+2020-11-30 14:52:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Blank Worksheet/JS-11' is clicked on
+
+2020-11-30 14:52:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Blank Worksheet/JS-11G")): Object: 'Object Repository/Home Page/Blank Worksheet/JS-11G' is clicked on
+
+2020-11-30 14:53:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Blank Worksheet/JS-11G' is clicked on
+
+2020-11-30 14:53:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Blank Worksheet/JS-30")): Object: 'Object Repository/Home Page/Blank Worksheet/JS-30' is clicked on
+
+2020-11-30 14:53:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Blank Worksheet/JS-30' is clicked on
+
+2020-11-30 14:53:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Blank Worksheet/JS-31")): Object: 'Object Repository/Home Page/Blank Worksheet/JS-31' is clicked on
+
+2020-11-30 14:53:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Blank Worksheet/JS-31' is clicked on
+
+2020-11-30 14:53:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Blank Worksheet/JS-46")): Object: 'Object Repository/Home Page/Blank Worksheet/JS-46' is clicked on
+
+2020-11-30 14:53:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Blank Worksheet/JS-46' is clicked on
+
+2020-11-30 14:53:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Blank Worksheet/B-102")): Object: 'Object Repository/Home Page/Blank Worksheet/B-102' is clicked on
+
+2020-11-30 14:53:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Blank Worksheet/B-102' is clicked on
+
+2020-11-30 14:53:11 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Court of Appeals/Appeals Monthly Summary (JS-30)")): Object: 'Object Repository/Home Page/Court of Appeals/Appeals Monthly Summary (JS-30)' is clicked on
+
+2020-11-30 14:53:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Court of Appeals/Appeals Monthly Summary (JS-30)' is clicked on
+
+2020-11-30 14:53:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Court of Appeals/Home icon")): Object: 'Object Repository/Home Page/Court of Appeals/Home icon' is clicked on
+
+2020-11-30 14:53:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Court of Appeals/Home icon' is clicked on
+
+2020-11-30 14:53:13 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Court of Appeals/Writs of Certiorari (JS-31)")): Object: 'Object Repository/Home Page/Court of Appeals/Writs of Certiorari (JS-31)' is clicked on
+
+2020-11-30 14:53:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Court of Appeals/Writs of Certiorari (JS-31)' is clicked on
+
+2020-11-30 14:53:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Court of Appeals/Home icon")): Object: 'Object Repository/Home Page/Court of Appeals/Home icon' is clicked on
+
+2020-11-30 14:53:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Court of Appeals/Home icon' is clicked on
+
+2020-11-30 14:53:14 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Court of Appeals/Report on Complaint Under Title 28 USC Section 351-364 (JS-60)")): Object: 'Object Repository/Home Page/Court of Appeals/Report on Complaint Under Title 28 USC Section 351-364 (JS-60)' is clicked on
+
+2020-11-30 14:53:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Court of Appeals/Report on Complaint Under Title 28 USC Section 351-364 (JS-60)' is clicked on
+
+2020-11-30 14:53:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Court of Appeals/Home icon")): Object: 'Object Repository/Home Page/Court of Appeals/Home icon' is clicked on
+
+2020-11-30 14:53:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Court of Appeals/Home icon' is clicked on
+
+2020-11-30 14:53:15 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/District Courts/District Courts- Petit Jury (JS-11)")): Object: 'Object Repository/Home Page/District Courts/District Courts- Petit Jury (JS-11)' is clicked on
+
+2020-11-30 14:53:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/District Courts/District Courts- Petit Jury (JS-11)' is clicked on
+
+2020-11-30 14:53:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Court of Appeals/Home icon")): Object: 'Object Repository/Home Page/Court of Appeals/Home icon' is clicked on
+
+2020-11-30 14:53:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Court of Appeals/Home icon' is clicked on
+
+2020-11-30 14:53:17 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/District Courts/District Courts- Grand Jury (JS-11G)")): Object: 'Object Repository/Home Page/District Courts/District Courts- Grand Jury (JS-11G)' is clicked on
+
+2020-11-30 14:53:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/District Courts/District Courts- Grand Jury (JS-11G)' is clicked on
+
+2020-11-30 14:53:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Court of Appeals/Home icon")): Object: 'Object Repository/Home Page/Court of Appeals/Home icon' is clicked on
+
+2020-11-30 14:53:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Court of Appeals/Home icon' is clicked on
+
+2020-11-30 14:53:18 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/District Courts/District Courts- Three-Judge Court (JS-46)")): Object: 'Object Repository/Home Page/District Courts/District Courts- Three-Judge Court (JS-46)' is clicked on
+
+2020-11-30 14:53:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/District Courts/District Courts- Three-Judge Court (JS-46)' is clicked on
+
+2020-11-30 14:53:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Court of Appeals/Home icon")): Object: 'Object Repository/Home Page/Court of Appeals/Home icon' is clicked on
+
+2020-11-30 14:53:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Court of Appeals/Home icon' is clicked on
+
+2020-11-30 14:53:19 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Bankruptcy/Bankruptcy Court Trials (B-102)")): Object: 'Object Repository/Home Page/Bankruptcy/Bankruptcy Court Trials (B-102)' is clicked on
+
+2020-11-30 14:53:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Bankruptcy/Bankruptcy Court Trials (B-102)' is clicked on
+
+2020-11-30 14:53:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Court of Appeals/Home icon")): Object: 'Object Repository/Home Page/Court of Appeals/Home icon' is clicked on
+
+2020-11-30 14:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Court of Appeals/Home icon' is clicked on
+
+2020-11-30 14:53:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Footer Link")): Object: 'Object Repository/Home Page/Footer Link' is clicked on
+
+2020-11-30 14:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Footer Link' is clicked on
+
+2020-11-30 14:53:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Logout Link")): Object: 'Object Repository/Home Page/Logout Link' is clicked on
+
+2020-11-30 14:53:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Logout Link' is clicked on
+
+2020-11-30 14:53:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-11-30 14:53:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-11-30 14:52:29 - [TEST_SUITE][PASSED] - SEF Test Suite-1: Test Cases/Home Page Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

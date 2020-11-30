@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SEF Test Suite-1,Edge Chromiume 18,,,2020-11-30 14:52:29,2020-11-30 14:53:23,54.494s,PASSED
+,,,,,,,
+Test Cases/Negative Scenario- Login Page Test Case,Edge Chromiume 18,,,2020-11-30 14:52:29,2020-11-30 14:52:46,16.636s,PASSED
+"openBrowser(""http://sefdev.jdc.ao.dcn:8181/sef/#/login"")",Edge Chromiume 18,,,2020-11-30 14:52:30,2020-11-30 14:52:40,10.273s,PASSED
+"setText(findTestObject(""Login Page/UserIDTextbox""), ""test"")",Edge Chromiume 18,,,2020-11-30 14:52:40,2020-11-30 14:52:42,1.524s,PASSED
+"click(findTestObject(""Login Page/ClearButton""))",Edge Chromiume 18,,,2020-11-30 14:52:42,2020-11-30 14:52:42,0.412s,PASSED
+"setText(findTestObject(""Login Page/UserIDTextbox""), ""TEST"")",Edge Chromiume 18,,,2020-11-30 14:52:42,2020-11-30 14:52:43,1.120s,PASSED
+"setText(findTestObject(""Login Page/PasswordTextbox""), ""testing"")",Edge Chromiume 18,,,2020-11-30 14:52:43,2020-11-30 14:52:44,1.057s,PASSED
+"click(findTestObject(""Login Page/LoginButton""))",Edge Chromiume 18,,,2020-11-30 14:52:44,2020-11-30 14:52:44,0.350s,PASSED
+"verifyTextPresent(""You entered invalid credentials. Please try again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov"", false)",Edge Chromiume 18,,,2020-11-30 14:52:44,2020-11-30 14:52:45,0.417s,PASSED
+waitForPageLoad(10),Edge Chromiume 18,,,2020-11-30 14:52:45,2020-11-30 14:52:45,0.127s,PASSED
+"takeScreenshot(""C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/LoginPageErrorMessage.png"")",Edge Chromiume 18,,,2020-11-30 14:52:45,2020-11-30 14:52:45,0.253s,PASSED
+closeBrowser(),Edge Chromiume 18,,,2020-11-30 14:52:45,2020-11-30 14:52:46,0.709s,PASSED
+,,,,,,,
+Test Cases/Home Page Test Case,Edge Chromiume 18,,,2020-11-30 14:52:46,2020-11-30 14:53:23,37.512s,PASSED
+"callTestCase(findTestCase(""Login page""), [:], STOP_ON_FAILURE)",Edge Chromiume 18,,,2020-11-30 14:52:46,2020-11-30 14:52:53,6.580s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Home Page/SEF Title""), ""Statistics Electronic Forms (SEF)"", CONTINUE_ON_FAILURE)",Edge Chromiume 18,,,2020-11-30 14:52:53,2020-11-30 14:52:53,0.352s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Home Page/Court of Appeals/Court of Appeals""), ""Courts of Appeals"")",Edge Chromiume 18,,,2020-11-30 14:52:53,2020-11-30 14:52:53,0.277s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Help Link""))",Edge Chromiume 18,,,2020-11-30 14:52:53,2020-11-30 14:52:55,1.681s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Refresh Link""))",Edge Chromiume 18,,,2020-11-30 14:52:55,2020-11-30 14:52:56,0.377s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Blank Worksheet/JS-11""))",Edge Chromiume 18,,,2020-11-30 14:52:56,2020-11-30 14:52:58,2.351s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Blank Worksheet/JS-11G""))",Edge Chromiume 18,,,2020-11-30 14:52:58,2020-11-30 14:53:01,3.022s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Blank Worksheet/JS-30""))",Edge Chromiume 18,,,2020-11-30 14:53:01,2020-11-30 14:53:03,2.510s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Blank Worksheet/JS-31""))",Edge Chromiume 18,,,2020-11-30 14:53:03,2020-11-30 14:53:06,2.676s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Blank Worksheet/JS-46""))",Edge Chromiume 18,,,2020-11-30 14:53:06,2020-11-30 14:53:09,2.528s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Blank Worksheet/B-102""))",Edge Chromiume 18,,,2020-11-30 14:53:09,2020-11-30 14:53:11,2.831s,PASSED
+"click(findTestObject(""Home Page/Court of Appeals/Appeals Monthly Summary (JS-30)""))",Edge Chromiume 18,,,2020-11-30 14:53:11,2020-11-30 14:53:12,0.611s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Court of Appeals/Home icon""))",Edge Chromiume 18,,,2020-11-30 14:53:12,2020-11-30 14:53:13,0.767s,PASSED
+"click(findTestObject(""Home Page/Court of Appeals/Writs of Certiorari (JS-31)""))",Edge Chromiume 18,,,2020-11-30 14:53:13,2020-11-30 14:53:13,0.576s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Court of Appeals/Home icon""))",Edge Chromiume 18,,,2020-11-30 14:53:13,2020-11-30 14:53:14,0.581s,PASSED
+"click(findTestObject(""Home Page/Court of Appeals/Report on Complaint Under Title 28 USC Section 351-364 (JS-60)""))",Edge Chromiume 18,,,2020-11-30 14:53:14,2020-11-30 14:53:15,0.555s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Court of Appeals/Home icon""))",Edge Chromiume 18,,,2020-11-30 14:53:15,2020-11-30 14:53:15,0.590s,PASSED
+"click(findTestObject(""Home Page/District Courts/District Courts- Petit Jury (JS-11)""))",Edge Chromiume 18,,,2020-11-30 14:53:15,2020-11-30 14:53:16,0.526s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Court of Appeals/Home icon""))",Edge Chromiume 18,,,2020-11-30 14:53:16,2020-11-30 14:53:17,0.778s,PASSED
+"click(findTestObject(""Home Page/District Courts/District Courts- Grand Jury (JS-11G)""))",Edge Chromiume 18,,,2020-11-30 14:53:17,2020-11-30 14:53:17,0.348s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Court of Appeals/Home icon""))",Edge Chromiume 18,,,2020-11-30 14:53:17,2020-11-30 14:53:18,0.746s,PASSED
+"click(findTestObject(""Home Page/District Courts/District Courts- Three-Judge Court (JS-46)""))",Edge Chromiume 18,,,2020-11-30 14:53:18,2020-11-30 14:53:18,0.413s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Court of Appeals/Home icon""))",Edge Chromiume 18,,,2020-11-30 14:53:18,2020-11-30 14:53:19,0.689s,PASSED
+"click(findTestObject(""Home Page/Bankruptcy/Bankruptcy Court Trials (B-102)""))",Edge Chromiume 18,,,2020-11-30 14:53:19,2020-11-30 14:53:19,0.456s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Court of Appeals/Home icon""))",Edge Chromiume 18,,,2020-11-30 14:53:19,2020-11-30 14:53:20,0.692s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Footer Link""))",Edge Chromiume 18,,,2020-11-30 14:53:20,2020-11-30 14:53:20,0.444s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Logout Link""))",Edge Chromiume 18,,,2020-11-30 14:53:20,2020-11-30 14:53:21,0.475s,PASSED
+closeBrowser(),Edge Chromiume 18,,,2020-11-30 14:53:21,2020-11-30 14:53:23,2.548s,PASSED

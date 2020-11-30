@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SEF Test Suite-1,Edge Chromiume 18,,,2020-11-30 10:32:08,2020-11-30 10:32:54,45.884s,PASSED
+,,,,,,,
+Test Cases/Home Page Test Case,Edge Chromiume 18,,,2020-11-30 10:32:08,2020-11-30 10:32:54,45.375s,PASSED
+"openBrowser(""http://sefdev.jdc.ao.dcn:8181/sef/#/login"")",Edge Chromiume 18,,,2020-11-30 10:32:09,2020-11-30 10:32:20,10.520s,PASSED
+"setText(findTestObject(""Login Page/UserIDTextbox""), ""TESTA"")",Edge Chromiume 18,,,2020-11-30 10:32:20,2020-11-30 10:32:21,1.212s,PASSED
+"setText(findTestObject(""Login Page/PasswordTextbox""), ""testing"")",Edge Chromiume 18,,,2020-11-30 10:32:21,2020-11-30 10:32:22,1.009s,PASSED
+"click(findTestObject(""Login Page/LoginButton""))",Edge Chromiume 18,,,2020-11-30 10:32:22,2020-11-30 10:32:22,0.469s,PASSED
+waitForPageLoad(10),Edge Chromiume 18,,,2020-11-30 10:32:22,2020-11-30 10:32:23,0.357s,PASSED
+"takeScreenshot(""C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/Demo.png"")",Edge Chromiume 18,,,2020-11-30 10:32:23,2020-11-30 10:32:23,0.370s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Home Page/SEF Title""), ""Statistics Electronic Forms (SEF)"")",Edge Chromiume 18,,,2020-11-30 10:32:23,2020-11-30 10:32:23,0.335s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Home Page/Court of Appeals/Court of Appeals""), ""Courts of Appeals"")",Edge Chromiume 18,,,2020-11-30 10:32:23,2020-11-30 10:32:24,0.309s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Help Link""))",Edge Chromiume 18,,,2020-11-30 10:32:24,2020-11-30 10:32:25,1.429s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Refresh Link""))",Edge Chromiume 18,,,2020-11-30 10:32:25,2020-11-30 10:32:26,0.433s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Blank Worksheet/JS-11""))",Edge Chromiume 18,,,2020-11-30 10:32:26,2020-11-30 10:32:27,1.742s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Blank Worksheet/JS-11G""))",Edge Chromiume 18,,,2020-11-30 10:32:27,2020-11-30 10:32:30,2.574s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Blank Worksheet/JS-30""))",Edge Chromiume 18,,,2020-11-30 10:32:30,2020-11-30 10:32:32,2.376s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Blank Worksheet/JS-31""))",Edge Chromiume 18,,,2020-11-30 10:32:32,2020-11-30 10:32:34,2.083s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Blank Worksheet/JS-46""))",Edge Chromiume 18,,,2020-11-30 10:32:34,2020-11-30 10:32:36,2.039s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Blank Worksheet/B-102""))",Edge Chromiume 18,,,2020-11-30 10:32:36,2020-11-30 10:32:40,3.479s,PASSED
+"click(findTestObject(""Home Page/Court of Appeals/Appeals Monthly Summary (JS-30)""))",Edge Chromiume 18,,,2020-11-30 10:32:40,2020-11-30 10:32:40,0.564s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Court of Appeals/Home icon""))",Edge Chromiume 18,,,2020-11-30 10:32:40,2020-11-30 10:32:41,0.739s,PASSED
+"click(findTestObject(""Home Page/Court of Appeals/Writs of Certiorari (JS-31)""))",Edge Chromiume 18,,,2020-11-30 10:32:41,2020-11-30 10:32:42,0.491s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Court of Appeals/Home icon""))",Edge Chromiume 18,,,2020-11-30 10:32:42,2020-11-30 10:32:43,0.849s,PASSED
+"click(findTestObject(""Home Page/Court of Appeals/Report on Complaint Under Title 28 USC Section 351-364 (JS-60)""))",Edge Chromiume 18,,,2020-11-30 10:32:43,2020-11-30 10:32:43,0.410s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Court of Appeals/Home icon""))",Edge Chromiume 18,,,2020-11-30 10:32:43,2020-11-30 10:32:44,0.652s,PASSED
+"click(findTestObject(""Home Page/District Courts/District Courts- Petit Jury (JS-11)""))",Edge Chromiume 18,,,2020-11-30 10:32:44,2020-11-30 10:32:44,0.547s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Court of Appeals/Home icon""))",Edge Chromiume 18,,,2020-11-30 10:32:44,2020-11-30 10:32:45,0.652s,PASSED
+"click(findTestObject(""Home Page/District Courts/District Courts- Grand Jury (JS-11G)""))",Edge Chromiume 18,,,2020-11-30 10:32:45,2020-11-30 10:32:45,0.467s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Court of Appeals/Home icon""))",Edge Chromiume 18,,,2020-11-30 10:32:45,2020-11-30 10:32:46,0.708s,PASSED
+"click(findTestObject(""Home Page/District Courts/District Courts- Three-Judge Court (JS-46)""))",Edge Chromiume 18,,,2020-11-30 10:32:46,2020-11-30 10:32:47,0.585s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Court of Appeals/Home icon""))",Edge Chromiume 18,,,2020-11-30 10:32:47,2020-11-30 10:32:47,0.686s,PASSED
+"click(findTestObject(""Home Page/Bankruptcy/Bankruptcy Court Trials (B-102)""))",Edge Chromiume 18,,,2020-11-30 10:32:47,2020-11-30 10:32:49,1.160s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Court of Appeals/Home icon""))",Edge Chromiume 18,,,2020-11-30 10:32:49,2020-11-30 10:32:49,0.380s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Footer Link""))",Edge Chromiume 18,,,2020-11-30 10:32:49,2020-11-30 10:32:49,0.464s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Logout Link""))",Edge Chromiume 18,,,2020-11-30 10:32:49,2020-11-30 10:32:50,0.506s,PASSED
+closeBrowser(),Edge Chromiume 18,,,2020-11-30 10:32:50,2020-11-30 10:32:54,3.766s,PASSED

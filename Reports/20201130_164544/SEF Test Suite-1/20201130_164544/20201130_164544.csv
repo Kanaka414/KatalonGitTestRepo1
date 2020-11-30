@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SEF Test Suite-1,Chrome 87.0.4280.66,,,2020-11-30 16:45:47,2020-11-30 16:46:49,1m - 2.243s,ERROR
+,,,,,,,
+Test Cases/Negative Scenario- Login Page Test Case,Chrome 87.0.4280.66,,,2020-11-30 16:45:47,2020-11-30 16:46:00,12.985s,PASSED
+"openBrowser(""http://sefdev.jdc.ao.dcn:8181/sef/#/login"")",Chrome 87.0.4280.66,,,2020-11-30 16:45:48,2020-11-30 16:45:56,8.630s,PASSED
+"setText(findTestObject(""Login Page/UserIDTextbox""), ""test"")",Chrome 87.0.4280.66,,,2020-11-30 16:45:56,2020-11-30 16:45:57,0.351s,PASSED
+"click(findTestObject(""Login Page/ClearButton""))",Chrome 87.0.4280.66,,,2020-11-30 16:45:57,2020-11-30 16:45:57,0.175s,PASSED
+"setText(findTestObject(""Login Page/UserIDTextbox""), ""TEST"")",Chrome 87.0.4280.66,,,2020-11-30 16:45:57,2020-11-30 16:45:57,0.200s,PASSED
+"setText(findTestObject(""Login Page/PasswordTextbox""), ""testing"")",Chrome 87.0.4280.66,,,2020-11-30 16:45:57,2020-11-30 16:45:57,0.266s,PASSED
+"click(findTestObject(""Login Page/ClearButton""))",Chrome 87.0.4280.66,,,2020-11-30 16:45:57,2020-11-30 16:45:58,0.131s,PASSED
+"setText(findTestObject(""Login Page/UserIDTextbox""), ""TEST"")",Chrome 87.0.4280.66,,,2020-11-30 16:45:58,2020-11-30 16:45:58,0.214s,PASSED
+"setText(findTestObject(""Login Page/PasswordTextbox""), ""testing"")",Chrome 87.0.4280.66,,,2020-11-30 16:45:58,2020-11-30 16:45:58,0.204s,PASSED
+"click(findTestObject(""Login Page/LoginButton""))",Chrome 87.0.4280.66,,,2020-11-30 16:45:58,2020-11-30 16:45:58,0.140s,PASSED
+"verifyTextPresent(""You entered invalid credentials. Please try again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov"", false)",Chrome 87.0.4280.66,,,2020-11-30 16:45:58,2020-11-30 16:45:58,0.091s,PASSED
+waitForPageLoad(10),Chrome 87.0.4280.66,,,2020-11-30 16:45:58,2020-11-30 16:45:58,0.156s,PASSED
+"takeScreenshot(""C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/LoginPageErrorMessage.png"")",Chrome 87.0.4280.66,,,2020-11-30 16:45:58,2020-11-30 16:45:59,1.028s,PASSED
+closeBrowser(),Chrome 87.0.4280.66,,,2020-11-30 16:45:59,2020-11-30 16:46:00,0.956s,PASSED
+,,,,,,,
+Test Cases/Home Page Test Case,Chrome 87.0.4280.66,,,2020-11-30 16:46:00,2020-11-30 16:46:49,48.869s,ERROR
+"callTestCase(findTestCase(""Login page""), [:], STOP_ON_FAILURE)",Chrome 87.0.4280.66,,,2020-11-30 16:46:01,2020-11-30 16:46:09,8.676s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Home Page/SEF Title""), ""Statistics Electronic Forms (SEF)"", CONTINUE_ON_FAILURE)",Chrome 87.0.4280.66,,,2020-11-30 16:46:09,2020-11-30 16:46:09,0.110s,PASSED
+waitForPageLoad(10),Chrome 87.0.4280.66,,,2020-11-30 16:46:09,2020-11-30 16:46:09,0.020s,PASSED
+"takeScreenshot(""C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/Homepage.png"")",Chrome 87.0.4280.66,,,2020-11-30 16:46:09,2020-11-30 16:46:10,0.414s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Home Page/Court of Appeals/Court of Appeals""), ""Courts of Appeals"")",Chrome 87.0.4280.66,,,2020-11-30 16:46:10,2020-11-30 16:46:10,0.140s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Help Link""))",Chrome 87.0.4280.66,,,2020-11-30 16:46:10,2020-11-30 16:46:10,0.200s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Blank Worksheet/JS-11""))",Chrome 87.0.4280.66,,,2020-11-30 16:46:10,2020-11-30 16:46:10,0.273s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Blank Worksheet/JS-11G""))",Chrome 87.0.4280.66,,,2020-11-30 16:46:11,2020-11-30 16:46:11,0.548s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Blank Worksheet/JS-30""))",Chrome 87.0.4280.66,,,2020-11-30 16:46:11,2020-11-30 16:46:11,0.426s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Blank Worksheet/JS-31""))",Chrome 87.0.4280.66,,,2020-11-30 16:46:11,2020-11-30 16:46:12,0.430s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Blank Worksheet/JS-46""))",Chrome 87.0.4280.66,,,2020-11-30 16:46:12,2020-11-30 16:46:12,0.362s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Blank Worksheet/B-102""))",Chrome 87.0.4280.66,,,2020-11-30 16:46:12,2020-11-30 16:46:13,0.408s,PASSED
+"click(findTestObject(""Home Page/Court of Appeals/Appeals Monthly Summary (JS-30)""))",Chrome 87.0.4280.66,,,2020-11-30 16:46:13,2020-11-30 16:46:13,0.499s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Court of Appeals/Home icon""))",Chrome 87.0.4280.66,,,2020-11-30 16:46:13,2020-11-30 16:46:14,0.826s,PASSED
+"click(findTestObject(""Home Page/Court of Appeals/Writs of Certiorari (JS-31)""))",Chrome 87.0.4280.66,,,2020-11-30 16:46:14,2020-11-30 16:46:15,0.847s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Court of Appeals/Home icon""))",Chrome 87.0.4280.66,,,2020-11-30 16:46:15,2020-11-30 16:46:15,0.245s,PASSED
+"click(findTestObject(""Home Page/Court of Appeals/Report on Complaint Under Title 28 USC Section 351-364 (JS-60)""))",Chrome 87.0.4280.66,,,2020-11-30 16:46:15,2020-11-30 16:46:49,33.968s,PASSED
