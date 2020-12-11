@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.Keys as Keys
-WebUI.openBrowser('http://sefdev.jdc.ao.dcn:8181/sef/#/login')
+WebUI.openBrowser('https://sefdev.jdc.ao.dcn:8452/sef/#/login')
 
 //User ID text box
 WebUI.setText(findTestObject('Login Page/UserIDTextbox'), 'SEFA')

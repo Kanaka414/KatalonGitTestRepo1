@@ -39,11 +39,6 @@ WebUI.takeScreenshot('C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/Homepag
 
 WebUI.verifyElementText(findTestObject('Object Repository/Home Page/Court of Appeals/Court of Appeals'), 'Courts of Appeals')
 
-//WebUI.waitForElementNotVisible(findTestObject('Object Repository/Home Page/User Administration Link'), 20)
-
-//User Administration link
-//WebUI.click(findTestObject('Object Repository/Home Page/User Administration Link'))
-
 //Help link click
 WebUI.click(findTestObject('Object Repository/Home Page/Help Link'))
 
@@ -65,13 +60,19 @@ WebUI.click(findTestObject('Object Repository/Home Page/Blank Worksheet/B-102'))
 //Reporting Forms- Court of Appeals
 WebUI.click(findTestObject('Home Page/Court of Appeals/Appeals Monthly Summary (JS-30)'))
 
+WebUI.verifyElementText(findTestObject('Object Repository/JS-30 Page/JS-30 Header'), 'JS-30 Search Reports')
+
 WebUI.click(findTestObject('Object Repository/Home Page/Court of Appeals/Home icon'))
 
 WebUI.click(findTestObject('Home Page/Court of Appeals/Writs of Certiorari (JS-31)'))
 
+WebUI.verifyElementText(findTestObject('Object Repository/JS-31 Page/JS-31 Header'), 'JS-31 Search Reports')
+
 WebUI.click(findTestObject('Object Repository/Home Page/Court of Appeals/Home icon'))
 
 WebUI.click(findTestObject('Home Page/Court of Appeals/Report on Complaint Under Title 28 USC Section 351-364 (JS-60)'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Judicial Complaints (JS-60)/JS-60 Header'), 'JS-60 Search Reports')
 
 WebUI.click(findTestObject('Object Repository/Home Page/Court of Appeals/Home icon'))
 
@@ -90,6 +91,8 @@ WebUI.click(findTestObject('Object Repository/Home Page/Court of Appeals/Home ic
 
 //Reporting Forms-Bankruptcy
 WebUI.click(findTestObject('Home Page/Bankruptcy/Bankruptcy Court Trials (B-102)'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/B-102 Page/B-102 Header'), 'B-102 Search Reports')
 
 WebUI.click(findTestObject('Object Repository/Home Page/Court of Appeals/Home icon'))
 

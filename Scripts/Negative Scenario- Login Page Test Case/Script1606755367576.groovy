@@ -15,8 +15,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.Rectangle as Rectangle
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-WebUI.openBrowser("http://sefdev.jdc.ao.dcn:8181/sef/#/login")
+WebUI.openBrowser("https://sefdev.jdc.ao.dcn:8452/sef/#/login")
 
 WebUI.setText(findTestObject('Login Page/UserIDTextbox'), "test")
 
@@ -39,8 +41,6 @@ WebUI.click(findTestObject('Login Page/LoginButton'))
 WebUI.verifyTextPresent('You entered invalid credentials. Please try again. If you forgot your password, please contact: CourtForms@ao.uscourts.gov', false)
 
 WebUI.waitForPageLoad(10)
-
-WebUI.maximizeWindow()
 
 //screenshot of the Login page error message when login fails
 WebUI.takeScreenshot('C:/Katalon/KatalonGitTestRepo1/Reports/Screenshots/LoginPageErrorMessage.png')

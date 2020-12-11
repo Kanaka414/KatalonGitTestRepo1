@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]</value>
+         <value>//button[contains(text(),'JS-31')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,13 +6,21 @@
    <elementGuidId>849dfc7d-b055-4405-81a0-1701f3163588</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[contains(text(),'Login')]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[contains(text(),'Login')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[contains(text(),'Login')]</value>
+   </webElementProperties>
 </WebElementEntity>

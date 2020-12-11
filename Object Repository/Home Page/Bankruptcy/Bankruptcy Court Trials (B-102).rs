@@ -7,15 +7,13 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>div.currentPage:nth-child(2) div.container-fluid div.col-md-12 div.panel-group div.panel.panel-default.panel-responsive div.panel.panel-primary.panel-responsive div.panel-body div.col-md-12:nth-child(2) div.row div.col-md-8 div.well ul:nth-child(8) li:nth-child(2) > a:nth-child(1)</value>
+         <value>//a[contains(text(),'Bankruptcy Court Trials (B-102)')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -23,8 +21,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>css</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>div.currentPage:nth-child(2) div.container-fluid div.col-md-12 div.panel-group div.panel.panel-default.panel-responsive div.panel.panel-primary.panel-responsive div.panel-body div.col-md-12:nth-child(2) div.row div.col-md-8 div.well ul:nth-child(8) li:nth-child(2) > a:nth-child(1)</value>
+      <value>//a[contains(text(),'Bankruptcy Court Trials (B-102)')]</value>
    </webElementProperties>
 </WebElementEntity>

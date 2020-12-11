@@ -23,4 +23,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Home Page Test Case</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>137f74e4-3316-4ebe-91ab-ec50bdb84f93</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Negative Scenario- Change Password Test Case</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1a8e4710-9e75-4063-8706-982f39593a49</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Change Password Test Case</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
